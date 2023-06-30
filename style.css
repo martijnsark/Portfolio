@@ -2,16 +2,12 @@
 
 
 head {
-    
     color: black;
     text-align: center;
 }
 
 
 body {
-    background-size:     cover;                    
-    background-repeat:   no-repeat;
-    background-position: center center;
     color: black;
     text-align: center;
 }
