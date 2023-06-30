@@ -1,6 +1,6 @@
 head {
     background-color: rgb(255, 255, 255);
-    color: azure;
+    color: black;
     text-align: center;
 }
 
@@ -13,6 +13,6 @@ body {
     background-size:     cover;                    
     background-repeat:   no-repeat;
     background-position: center center;
-    color: azure;
+    color: black;
     text-align: center;
 }
