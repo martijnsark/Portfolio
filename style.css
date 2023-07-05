@@ -42,6 +42,7 @@ ul {
 li {
     float: right;
     color: lightcyan;
+    font-family: 'Crimson Pro', serif;
 }
 
 .edge {
