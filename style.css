@@ -18,9 +18,6 @@ body {
 
  .header .contactImage {
     background-color: #4e54c8;
-    color: lightcyan;
-    text-align: left;
-    margin-right: 10%;
 
 }
 
@@ -28,8 +25,8 @@ body {
     background-color: #4e54c8;
     color: lightcyan;
     text-align: left;
-    margin-bottom: 1%;
-    
+  
+
 }
 
 /*css for my details*/
