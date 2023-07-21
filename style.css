@@ -19,14 +19,14 @@ body {
  .header .contactImage {
     background-color: #4e54c8;
     color: lightcyan;
-    text-align: center;
+    text-align: left;
 
 }
 
 .header .contactText {
     background-color: #4e54c8;
     color: lightcyan;
-    text-align: center;
+    text-align: left;
     margin-bottom: 1%;
 }
 
