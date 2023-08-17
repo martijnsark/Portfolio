@@ -34,6 +34,7 @@ body {
     height: 25%;
     float: left;
     color: black;
+    background-color: #4e54c8;
     padding-bottom: 3%;
 }
 
@@ -41,11 +42,13 @@ body {
     float: left;
     width: 15%;
     padding: 10px 10px;
+    background-color: #4e54c8;
     color: black;
   }
 
   .row {margin: 0 -5px;
     color: black;
+    background-color: #4e54c8;
 }
 
 
