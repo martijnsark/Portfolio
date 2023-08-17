@@ -29,6 +29,26 @@ body {
 
 }
 
+.container{
+    width: 25%;
+    height: 25%;
+    float: left;
+    color: black;
+    padding-bottom: 3%;
+}
+
+.column {
+    float: left;
+    width: 15%;
+    padding: 10px 10px;
+    color: black;
+  }
+
+  .row {margin: 0 -5px;
+    color: black;
+}
+
+
 /*css for my details*/
 .aboutme {
     width: 100%;
