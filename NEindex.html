@@ -1,63 +1,85 @@
 <!DOCTYPE html>
-
-<ul id="navbar">
-    <li class="edge"><a href="index.html">English text</a></li>
-    <li><a href="NEindex.html">home pagina</a></li>
-    <li><a href="contact.html">Contact me</a></li>
-</ul>
-
-
-<header>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <h1> hey mijn naam is Martijn van der Willigen. </h1>
-    <h2> I am a Software developer, student, video editor. </h2>
-    
-   
-</header>
-
-
-<div class="square" >
-    <ul class="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-    </ul>
-</div >
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martijn van der Willigens - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
+    <header>
+        <h1>my name is Martijn van der willigen</h1>
+        <p>software Developer | Specialty Game dev</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#NEindex.html">translate to Dutch</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <style>
-        @media only screen and (max-height: 100%) and (max-width: 100%) {
-          body {
-            background-color: rgb(0, 0, 0);
-          }
-        }
-     </style>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio website. I'm a passionate software developer and i also like to edit video's.</p>
+        <p>I really love making video games as i've practically grown up playing them.</p>
+    </section>
 
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- Add your project details here -->
+    
+        <div class="container project-container">
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-header">
+                            <p class="p1">the game Pong:</p>
+                            <p class="p3">I made a replica of the iconic video game Pong with the theme stars, which I chose to add a twist to the original</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="youtube-video-container">
+                                <iframe width="50%" height="50%" src="https://www.youtube.com/embed/qT3m4rWrv5Y" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<h1> About me </h1>
-     
-<div class="aboutme">
-    <h2> Hi my name is: Martijn van der Willigen </h1>
-<p>
-    <h2> My profession: student software developer</h2>
-</p>
-    <h2> I have 3 Years of software dev expierence</h2>
-<p>
-    <h2>  lives in Nijmegen</h2>
-<p>
-    <h2>  Speaks fluent English and Dutch</h2>
-<p>
-</div>
+    
+        <div class="container project-container">
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-header">
+                            <p class="p1">some random project:</p>
+                            <p class="p3">some random text</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="youtube-video-container">
+                                <iframe width="50%" height="50%" src="https://www.youtube.com/embed/qT3m4rWrv5Y" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out to me at</p>
+        <a href="mailto:m.van.der.willigen@sintlucasedu.nl">my email</a>.
+        <a href="https://github.com/martijnsark">my Github</a>.
+        <a href="https://www.youtube.com/channel/UCWEH4OebCZ1u6DvInrVQuRQ">my Youtube</a>.
 
-
+        
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Martijn van der Willigen</p>
+    </footer>
 </body>
 </html>
