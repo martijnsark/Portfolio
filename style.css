@@ -50,6 +50,32 @@ section {
     margin-bottom: 40px; /* Adjust the value as needed for spacing */
 }
 
+/* Styles for the Cookie Banner */
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 999;
+}
+
+#accept-cookie {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#accept-cookie:hover {
+    background-color: #45a049;
+}
+
+
 footer {
     text-align: center;
     padding: 10px;
