@@ -1,9 +1,6 @@
-body, h1, h2, p {
+body {
     margin: 0;
     padding: 0;
-}
-
-body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
@@ -15,21 +12,54 @@ header {
     padding: 20px;
 }
 
+nav {
+    position: relative;
+}
+
 nav ul {
     list-style: none;
-    display: flex;
-    justify-content: center;
+    padding: 0;
+    margin: 0;
     background-color: #000000;
-    padding: 10px 0;
+    display: inline-block;
 }
 
 nav ul li {
-    margin: 0 20px;
+    display: inline-block;
+    position: relative;
 }
 
 nav ul li a {
-    text-decoration: none;
+    display: block;
     color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000000;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul li {
+    width: 100%;
+    display: block;
+}
+
+.header-navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
 }
 
 section {
@@ -41,22 +71,16 @@ section {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Add spacing between p1 and p3 */
-.p1 {
-    margin-bottom: 10px; /* Adjust the value as needed for spacing */
-}
-
 .project-container {
-    margin-bottom: 40px; /* Adjust the value as needed for spacing */
+    margin-bottom: 40px;
 }
 
-/* Styles for the Cookie Banner */
 .cookie-banner {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 80px; /* Adjust the height to cover most of the page */
+    height: 80px;
     background-color: #333;
     color: #fff;
     text-align: center;
