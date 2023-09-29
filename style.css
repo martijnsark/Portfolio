@@ -32,8 +32,7 @@ nav ul li a {
     color: #fff;
 }
 
-/* Section styling */
-.section {
+section {
     max-width: 800px;
     margin: 0 auto;
     padding: 40px;
@@ -48,8 +47,6 @@ nav ul li a {
 }
 
 .project-container {
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 40px; /* Adjust the value as needed for spacing */
 }
 
