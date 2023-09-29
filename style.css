@@ -15,56 +15,21 @@ header {
     padding: 20px;
 }
 
-/* New styles for the dropdown menu */
-nav {
-    position: relative;
-}
-
 nav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    display: flex;
+    justify-content: center;
     background-color: #000000;
-    display: inline-block;
+    padding: 10px 0;
 }
 
 nav ul li {
-    display: inline-block;
-    position: relative;
+    margin: 0 20px;
 }
 
 nav ul li a {
-    display: block;
-    color: #fff;
     text-decoration: none;
-    padding: 10px 20px;
-}
-
-nav ul ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #000000;
-}
-
-nav ul li:hover > ul {
-    display: inherit;
-}
-
-nav ul ul li {
-    width: 100%;
-    display: block;
-}
-
-/* Styles for the main navbar */
-.header-navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #000000;
     color: #fff;
-    padding: 10px 20px;
 }
 
 section {
