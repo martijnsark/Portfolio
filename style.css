@@ -15,24 +15,21 @@ header {
     padding: 20px;
 }
 
-/* New styles for the dropdown menu */
-nav ul ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
     background-color: #000000;
+    padding: 10px 0;
 }
 
-nav ul li:hover > ul {
-    display: inherit;
+nav ul li {
+    margin: 0 20px;
 }
 
-nav ul ul li {
-    width: 200px;
-    float: none;
-    display: list-item;
-    position: relative;
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
 }
 
 section {
