@@ -70,6 +70,11 @@ nav ul li a {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  
+  /* Hide dropdown menu when not hovering */
+  .dropdown:not(:hover) .dropdown-content {
+    display: none;
+  }
 
 section {
     max-width: 800px;
