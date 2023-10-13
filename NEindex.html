@@ -5,76 +5,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martijn van der Willigens - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
 </head>
 <body>
     <header>
-        <h1>mijn naam is Martijn van der willigen</h1>
+        <h1>my name is Martijn van der willigen</h1>
         <p>software Developer | Specialty Game dev</p>
     </header>
-    
     
     <nav>
         <ul>
             <li><a href="index.html">vertaal naar Engels</a></li>
-            <li><a href="about">over</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Projecten</a>
+                <div class="dropdown-content">
+                    <a href="#projects">Alle Projecten</a>
+                    <a href="#project-pong">Pong</a>
+                    <a href="#project-memory">Memory Game</a>
+                    <a href="#project-unreal">Unreal Game</a>
+                    <a href="#project-piano">Piano Project</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Over</a>
+                <div class="dropdown-content">
+                    <a href="#about">Over mij</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Contact</a>
+                <div class="dropdown-content">
+                    <a href="#contact">Contact Mij</a>
+                </div>
+            </li>
         </ul>
     </nav>
 
+    
     <section id="about">
-        <h2>About Me</h2>
-        <p>Welcome to my portfolio website. I'm a passionate software developer and i also like to edit video's.</p>
-        <p>I really love making video games as i've practically grown up playing them.</p>
+        <h2>over mij</h2>
+        <p>Welcome tot mijn portfolio website. Mijn naam is Martijn van der Willigen en ik ben een hartstochtelijke software developer maar ik hou ook van om te werken aan video's edits op Youtube.</p>
+        <p>Ik werk vooral met game dev omdat ik heel erg hou van aan games werken en ik groeide op met video games.</p>
     </section>
+
+<!-- Cookie Banner -->
+<div id="cookie-banner" class="cookie-banner">
+    <p>Deze website gebruikt cookies om zeker te maken dat jij de beste ervaring hebt op deze website.</p>
+    <a href="https://www.cookiepolicygenerator.com/live.php?token=8Y1LvnaxOXzwY3q3OMcdPp3PKnxzHfgn" target="_blank" rel="noopener noreferrer">Cookie Beleid</a>
+    <button id="accept-cookie">Accept</button>
+</div>
 
     <section id="projects">
-        <h2>Projects</h2>
-        <!-- Add your project details here -->
-    
-        <div class="container project-container">
-            <div class="row">
-                <div class="column">
-                    <div class="card">
-                        <div class="card-header">
-                            <p class="p1">the game Pong:</p>
-                            <p class="p3">I made a replica of the iconic video game Pong with the theme stars, which I chose to add a twist to the original</p>
-                        </div>
-                        <div class="card-body">
-                            <div class="youtube-video-container">
-                                <iframe width="50%" height="50%" src="https://www.youtube.com/embed/qT3m4rWrv5Y" allowfullscreen></iframe>
+        <h2>Projecten</h2>
+        
+        
+        <section id="project-pong">
+            <div class="container project-container">
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-header">
+                                <p class="p1">de game Pong:</p>
+                                <p class="p3">Ik maakte een replica van de Iconische video game Pong met het thema sterren, die ik koos om een twist the geven aan de orginele game.</p>
+                            </div>
+                            <div class="card-body">
+                                <div class="youtube-video-container">
+                                    <iframe width="50%" height="50%" src="https://www.youtube.com/embed/qT3m4rWrv5Y" allowfullscreen></iframe>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-    
-        <div class="container project-container">
-            <div class="row">
-                <div class="column">
-                    <div class="card">
-                        <div class="card-header">
-                            <p class="p1">some random project:</p>
-                            <p class="p3">some random text</p>
-                        </div>
-                        <div class="card-body">
-                            <div class="youtube-video-container">
-                                <iframe width="50%" height="50%" src="https://www.youtube.com/embed/jnIM4g-v_jQ?si=TDBVDqOz9cVvUql_" allowfullscreen></iframe>
+        </section>
+        
+        <section id="project-memory">
+            <div class="container project-container">
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-header">
+                                <p class="p1">Een memory game:</p>
+                                <p class="p3">deze memory game was gemaakt om mensen te helpen met slecht geheugen.</p>
+                            </div>
+                            <div class="card-body">
+                                <div class="youtube-video-container">
+                                    <iframe width="50%" height="50%" src="https://www.youtube.com/embed/jnIM4g-v_jQ?si=TDBVDqOz9cVvUql_" allowfullscreen></iframe>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        
+        <section id="project-unreal">
+            <div class="container project-container">
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-header">
+                                <p class="p1">Mijn eerste Unreal game:</p>
+                                <p class="p3">Ik had mijn eerste unreal engine game gemaakt die gemaakt was met blueprints.</p>
+                            </div>
+                            <div class="card-body">
+                                <div class="youtube-video-container">
+                                    <iframe width="50%" height="50%" src="https://www.youtube.com/embed/rrE0rQbGrJ8?si=13pZ3mcEgrcPuoZc"  allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="project-piano">
+            <div class="container project-container">
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-header">
+                                <p class="p1">Een simple piano project:</p>
+                                <p class="p3">Dit was een simple piano applicatie met voornamelijk knoppen maar het had wel een geluid manager script.</p>
+                            </div>
+                            <div class="card-body">
+                                <div class="youtube-video-container">
+                                    <iframe width="50%" height="50%" src="https://www.youtube.com/embed/_GgMee34Xwc?si=ebxoQS-esAdmxe5D" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
     </section>
 
+    
     <section id="contact">
-        <h2>Contact Me</h2>
-        <p>If you'd like to get in touch, feel free to reach out to me at</p>
-        <a href="mailto:m.van.der.willigen@sintlucasedu.nl">my email</a>.
-        <a href="https://github.com/martijnsark">my Github</a>.
-        <a href="https://www.youtube.com/channel/UCWEH4OebCZ1u6DvInrVQuRQ">my Youtube</a>.
+        <h2>Neem contact met mij op</h2>
+        <p>Als jij graag in contact met mij komt, voel je vrij om contact met mij op te nemen op</p>
+        <a href="mailto:m.van.der.willigen@sintlucasedu.nl">mijn email</a>.
+        <a href="https://github.com/martijnsark">mijn Github</a>.
+        <a href="https://www.youtube.com/channel/UCWEH4OebCZ1u6DvInrVQuRQ">mijn Youtube</a>.
 
         
     </section>
