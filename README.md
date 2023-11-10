@@ -6,7 +6,9 @@ i don't often work with web development because in lean towards being a game dev
 
 
 I made many projects containing a wide variety of coding lanquages which include: C# unity, C# visual studio console app, Python, HTML, CSS, Javascript, SQL, PHP, with as honourable mention Unreal Engine blueprints.
+
 I have also worked with quite some hardware like: raspberry pi-top, makey makey, aldruino.
+
 I mostly work with Unity and C# to see projects with those you can look at my portfolio to see video's of this.
 
 here's a short clip to a raspberry pi-top: https://www.youtube.com/watch?v=19l-QARHv2Y
