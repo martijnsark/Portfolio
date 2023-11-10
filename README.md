@@ -1,4 +1,4 @@
-# Portfolio website Martijn.
+# Portfolio website Martijn
 
 hello my name is Martijn i made a portfolio website to show off my work and my skills in web development, 
 i don't often work with web development because in lean towards being a game dev but i do have web development expierence.
