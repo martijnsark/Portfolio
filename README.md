@@ -11,6 +11,7 @@ I have also worked with quite some hardware like: raspberry pi-top, makey makey,
 
 I mostly work with Unity and C# to see projects with those you can look at my portfolio to see video's of this.
 
+
 here's a short clip to a raspberry pi-top: https://www.youtube.com/watch?v=19l-QARHv2Y
 
 here's a short clip of the aldruino: https://www.youtube.com/shorts/RAhQlaZFY1I
