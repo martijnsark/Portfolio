@@ -85,6 +85,21 @@ section {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+#code-comments {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#code-comments img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Adjust the value as needed for spacing */
+}
+
 /* Add spacing between p1 and p3 */
 .p1 {
     margin-bottom: 10px; /* Adjust the value as needed for spacing */
