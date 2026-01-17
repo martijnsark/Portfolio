@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Martijns Portfolio</title>
+    <title>Martijn's Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -17,8 +17,8 @@
             <h2>About me</h2>
             <p>
                 I am Martijn van der Willigen, a second-year CMGT student at Rotterdam University of Applied Sciences.
-                I am seeking an internship where I can combine my practical (MBO) game development experience with the 
-                quality-focused approach I have developed during my studies at university (HBO). My goal is to create fun and creative games, 
+                I am seeking an internship where I can combine my practical (MBO) game-development experience with the
+                quality-focused approach I have developed during my studies at the university (HBO). My goal is to create fun, creative games,
                 and I am looking for an internship where I can further develop these skills.
             </p>
         </section>
@@ -51,16 +51,14 @@
             <section class="project">
                 <h2>Web-game</h2>
                 <p>
-                    Web-game was a 2d web game made using Excalibur Engine. 
-                    In Short the game is a endless runner meaning the player continuously runs through a level while avoiding obstacles and earning points for every second alive. 
-                    The game was designed to be local co-op allowing two players to play on the same keyboard player1(space=jump, e=shoot arrow) player2(shiftright=jump, enter=shoot arrow).
-                    Both players can regain lives picking up hearts that spawn randomly throughout the level, when one player dies it stops counting that players score, when both players die the game ends.
+                    Web-game is a 2D web game built with the Excalibur Engine.
+                    In short, it is an endless runner: the player continuously runs through a level, avoids obstacles, and earns points for every second survived.
+                    The game supports local co-op on one keyboard: Player 1 (Space = jump, E = shoot) and Player 2 (Right Shift = jump, Enter = shoot).
+                    Both players can regain lives by picking up hearts that spawn randomly; when one player dies, that player’s score stops; when both players die, the game ends.
                 </p>
-
-                <p>This project was made for Hogeschool Rotterdam as a assignment to learn Excalibur Engine to create web games.</p>
-
+                <p>This project was made for Hogeschool Rotterdam as an assignment to learn the Excalibur Engine and create web games.</p>
                 <h3>Solved problems</h3>
-                <p>One problem i had was that the background wouldent loop correctly, i ended up solving this by adding these values 2275, 514 in the event where it respawns behind the last background</p>
+                <p>One problem I had was that the background wouldn’t loop correctly. I solved this by respawning it behind the last background using offsets 2275 and 514.</p>
                 
                 <h3>Technologies used</h3>
                 <ul>
@@ -71,7 +69,7 @@
                 </ul>
 
                 <h3>My role</h3>
-                <p>My role was to make the entire project by myself, however we did receive game concept templates so that i hads a clear set of goals to work towards like this endless runner.</p>
+                <p>I developed the entire project myself. We received game-concept templates, which gave me a clear set of goals to work toward, such as building an endless runner.</p>
 
                 <h3>Demo and Screenshots</h3>
                 <a href="https://martijnsark.github.io/web-game/" target="_blank">Playable demo</a>
@@ -81,29 +79,28 @@
 
                 <h3>Reflection</h3>
                 <p>
-                    In the process of making this game i learned how to create web games using Excalibur Engine and JavaScript, + how to propperly work with object based classes.
-                    If i were to redo this project i would focus on removing the slight janky feeling of the game for example the collisions, but also focus on making better spawn rates for the obstacles and hearts.
-                    Other than that i would want to display the end scores at the game over screen so players can see how well they did.
+                    In the process of making this game, I learned how to create web games using the Excalibur Engine and JavaScript, and how to work properly with object-oriented classes.
+                    If I were to redo this project, I would focus on removing the slight janky feel—for example, improving collisions—and on better spawn rates for obstacles and hearts.
+                    I would also display the final scores on the game-over screen so players can see how well they did.
                 </p>
             </section>
 
             <section class="project">
                 <h2>TicTacToe-in-Python-with-machine-learning</h2>
                 <p>
-                    A Tic Tac Toe game in a 6 by 6 grid using Minimax machine learning to play as your opponent.
-                    I made a couple versions but MCTS_AI_implementation_game.ipynb is the final version.
-                    In short i made a tic tac toe game in python code where the player plays against an AI that uses the minimax algorithm to make its moves.
-                    The player also gets to select a diffeculty which changes how difficult it is to win from the AI, this ranges from easy, medium, to hard.
-                    The player plays as X and the AI plays as O, the player can input their move by entering the row and column number of the grid they want to place their X in.
+                    A 6×6 Tic-Tac-Toe game that uses the Minimax algorithm to play as your opponent.
+                    I made a few versions, but MCTS_AI_implementation_game.ipynb is the final one.
+                    In short, the player (X) plays against an AI (O) that uses Minimax to choose moves.
+                    The player can select a difficulty—easy, medium, or hard—and enters moves by specifying the row and column.
                 </p>
 
-                <p>This project was made in request of HR Datalab Healthcare as an internship project, the target audiance was adults with little to none techinical background</p>
+                <p>This project was made at the request of HR Datalab Healthcare as an internship project. The target audience was adults with little to no technical background.</p>
 
                 <h3>Solved problems</h3>
                 <p>
-                    I got the visuals working making for a better user experience but it was at cost of the quality of the functionality of the Minimax algorithm, 
-                    in response i brought this issue up at a meeting at which point i was given the advise to focus on the functionaliy first and visuals second. 
-                    This led to me stripping the visuals and focusing on getting the minimax algorithm to work propperly which improved the overall functionality of the game.
+                    I initially got the visuals working, which improved the user experience, but this came at the cost of the Minimax implementation’s quality.
+                    I raised this in a meeting and was advised to prioritize functionality over visuals.
+                    I then removed the visuals and focused on making the Minimax algorithm work properly, which improved the game overall.
                 </p>
                 
                 <h3>Technologies used</h3>
@@ -119,8 +116,8 @@
 
                 <h3>My role</h3>
                 <p>
-                    I was assigned to create a project meeting the criteria of "A zero-sum boardgame using machine learning as opponent with a Graphical User Interface." 
-                    I was given freedom to choose the game and the machine learning algorithm to use, after doing research i settled on Tic Tac Toe and i was reccomended the Minimax algorithm by my supervisor.
+                    I was asked to create a project that met the criteria of “a zero-sum board game with a machine-learning opponent and a graphical user interface.”
+                    After research, I chose Tic-Tac-Toe, and my supervisor recommended the Minimax algorithm.
                 </p>
 
                 <h3>Demo and Screenshots</h3>
@@ -135,31 +132,30 @@
 
                 <h3>Reflection</h3>
                 <p>
-                    I learned what machine learning does and what it's used for by implementing the minimax algorithm in a game.
-                    I also learned to value functionality over visuals based on the feedback i got from my supervisor.
-                    If i were to redo this project i would focus from the start on functionality first so i had more time to test and improve the minimax algorithm.
-                    And i would experiment with different machine learning algorithms to see how they perform in comparison to minimax.
+                    I learned what machine learning is used for by implementing Minimax in a game, and to value functionality over visuals based on feedback.
+                    If I were to redo this project, I would focus on functionality from the start to allow more time to test and improve the algorithm.
+                    I would also experiment with other approaches to compare them with Minimax.
                 </p>
             </section>
 
             <section class="project">
                 <h2>Memory-game-in-Unity</h2>
                 <p>
-                    A 2d memory game made in Unity where the player can choose between the themes of flowers or humans
-                    both topics were chosen based on research done to see what topics elderly people with dementia resonate well with.
-                    The game tracks the ammount of matches, attempts, and the time to track the players progress.
+                    A 2D memory game made in Unity where the player can choose between themes—flowers or humans—
+                    selected based on research into topics that resonate with elderly people with dementia.
+                    The game tracks the amount of matches, attempts, and time to monitor the player’s progress.
                 </p>
 
                 <p>
-                    The assignment began as a self-conceived quote in assignment of SintLucas MBO as i was following the Software Development study at the time.
-                    The quote I came up with was that a hospital with dementia patients wanted a fun way to test the memory of their patients.
-                    Therefor the target audience for this project were elderly people with dementia.
+                    The project began with a self-written project proposal for SintLucas MBO while I was studying Software Development at SintLucas.
+                    The proposal assumed a hospital for dementia patients wanted a fun way to test their patients’ memory.
+                    Therefore, the target audience for this project was elderly people with dementia.
                 </p>
 
                 <h3>Solved problems</h3>
                 <p>
                     The UI was not fitting the screen correctly.
-                    I fixed this by assigning the scene camera to the Canvas.
+                    I fixed this by assigning the Scene camera to the Canvas.
                 </p>
                 
                 <h3>Technologies used</h3>
@@ -170,7 +166,7 @@
                 </ul>
 
                 <h3>My role</h3>
-                <p>I was assigned to create a quote myself and proceed with the development of the solo project.</p>
+                <p>I was asked to write the proposal and develop the project solo.</p>
 
                 <h3>Demo and Screenshots</h3>
                 <a href="https://www.youtube.com/watch?v=jnIM4g-v_jQ" target="_blank">Video demo of gameplay</a>
@@ -180,17 +176,17 @@
 
                 <h3>Reflection</h3>
                 <p>
-                    I learned more about the target audiance of elderly people with dementia by doing research,
-                    where i learned that seing faces helps them remember facces better, and that flowers align with a common garderning hobby of the target audience.
-                    If i were to redo this project i would add a end of game loop where the player would get a summary of their performance, along with advice.
-                    And i would also add more options like grid size and more themes to choose from.
+                    I learned more about the target audience of elderly people with dementia by doing research,
+                    where I learned that seeing faces helps them remember people better, and that flowers align with a common gardening hobby.
+                    If I were to redo this project, I would add an end-of-game summary where the player gets a performance overview and advice,
+                    and I would also add more options like grid size and more themes to choose from.
                 </p>
             </section>
         </section>
 
 
         <section class="contact">
-             <p>contact information</p>
+             <p>Contact Information</p>
              <a href="mailto:martijnvanderwilligen@gmail.com">martijnvanderwilligen@gmail.com</a>
              <a href="https://github.com/martijnsark" target="_blank">GitHub</a>
         </section>
